@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: skyblue;
+}
+
+h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: brown;
+  margin-top: 20px;
+  background-color: rgb(233, 235, 90);
+  padding: 20px;
+  word-spacing: 5px;
+  font-family: "Bona Nova SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.whole-flag {
+  margin: 40px;
+  position: relative;
+  width: 700px;
+  height: 500px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.red-part {
+  background-color: red;
+  height: 33.3%;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.white-part {
+  background-color: white;
+  height: 33.3%;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+}
+.black-part {
+  background-color: black;
+  height: 33.3%;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+}
+
+.stars-container {
+  display: flex;
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+img {
+  width: 100px;
+}
+
+.akbar {
+  color: green;
+  font-size: 70px;
+  font-family: "Amiri", serif;
+  font-weight: 400;
+  font-style: normal;
+}
